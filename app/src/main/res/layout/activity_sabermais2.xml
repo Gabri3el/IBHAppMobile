@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Sabermais2">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:src="@drawable/banner_50859960"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:text="Igreja Batista Humaitá - São Vicente - SP"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/coloraqua"/>/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:text="Endereço: R. Pastor Ney Angelo Pereira N 80- Parque Continental, São Vicente - SP                      11348-200"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        android:background="@color/coloraqua"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="385dp"
+        android:text="E-mail: ibh@outlook.com.br"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/coloraqua"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="415dp"
+                android:text="FACEBOOK: https://www.facebook.com/igrejabatistahumaita/"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:background="@color/coloraqua"/>
+</RelativeLayout>

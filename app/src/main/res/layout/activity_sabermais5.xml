@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Sabermais5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:id="@+id/sabermais3"
+        android:src="@drawable/banner_elohim_151141"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ministerio De Teatro Elohim."
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Um Grupo de Teatro onde o foco é missoes, levar a palavra de forma Teatral as pessoas."
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Precisamos de Missionarios Dispostos a levar essa palavra, se você gosta de atuar, bastidores, maquiagem, figurino, libras, dança e entre outros."
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ficou interessado? entre em contato conosco e olhe nossos trabalhos.  INSTAGRAM: https://www.instagram.com/ministerio_teatroelohim/"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

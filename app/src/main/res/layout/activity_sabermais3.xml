@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Sabermais3">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:id="@+id/sabermais3"
+        android:src="@drawable/banner_1075389"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nossas EBD'S acontecem todos os domingos de manhã as 09:00"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Temos as Escola Biblica de Ferias (EBF) que geralmente acontecem em Julho"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Onde as crianças se desenvolvem brincando e conhecendo mais da palavra de Deus."
+                    android:layout_marginTop="380dp"
+                    android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

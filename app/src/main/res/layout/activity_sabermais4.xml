@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Sabermais4">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:id="@+id/sabermais3"
+        android:src="@drawable/banner_uni_155158448"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Temos Encontro todas as quintas-feiras as 21:00 no Applicativo Google Meet."
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Um bate-papo descontraido sobre Assuntos reoorrentes, e sobre crescimento."
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Não perca a oportunidade e venha conhecer, Entre em contato e participe de um dos Encontros de Jovens."
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Oferta">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:src="@drawable/banner_dizi_16515132168"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:text="Para entregar seus Dizimos e Ofertas procure um dos Tesoureiros e um deles irá retirar em sua casa Seu dizimo ou Oferta."
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="360dp"
+        android:text="Para entrar em Contato entre na Aba IGREJA > CONTATO."
+        android:layout_marginLeft="20dp" />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

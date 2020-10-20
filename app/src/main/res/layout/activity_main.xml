@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.ibh.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/banner"
+                    android:layout_gravity="center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:weightSum="3">
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/igreja"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_10_450130"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="A Igreja"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/ministerio"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_20_450130"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Ministerios"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/oferta"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_6598163"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Dizimos e Ofertas"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:weightSum="3">
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/live"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_3993869"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="LIVE"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/videos"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_23290127"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Videos"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/devocional"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_24103173"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Devocionais"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:weightSum="3">
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:id="@+id/agenda"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_2931175"
+                            android:tint="@color/colorwhite"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Agenda"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/biblia"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_bible_3032478"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Biblia Online"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/oracao"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_pray_5992033"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Pedidos de Oração"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:weightSum="3">
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/social"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_194915"
+                            android:tint="@color/colorwhite"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Redes Sociais"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/localizacao"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_115718"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Localização"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:id="@+id/programacao"
+                        android:orientation="vertical"
+                        android:background="@color/coloraqua">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconfinder_118647"
+                            android:tint="@color/colorwhite"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/colorwhite"
+                            android:text="Programação"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorgray"
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+    </ScrollView>
+   
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Ministerio">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:id="@+id/sabermais3"
+            android:src="@drawable/banner_1075389"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Ministerio Infantil"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/coloraqua"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:text="Venha conhecer                                         Traga suas crianças para aprender mais sobre Deus!!"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="150dp"
+        android:text="Clique na imagem e saiba mais"/>
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/sabermais4"
+        android:src="@drawable/banner_uni_155158448"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="140dp"
+        android:text="UNIJOVEM"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/coloraqua" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="150dp"
+        android:text="Ministerio de Jovens"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="150dp"
+        android:text="Clique na imagem e saiba mais"/>
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="290dp"
+        android:id="@+id/sabermais5"
+        android:src="@drawable/banner_elohim_151141"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="290dp"
+        android:text="Ministerio de Teatro Elohim"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/coloraqua" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="150dp"
+        android:text="Grupo de Teatro"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="150dp"
+        android:text="Clique na imagem e saiba mais"/>
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/sabermais6"
+        android:src="@drawable/banner_1515815"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"
+        android:text="Ministerio de Louvor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/coloraqua" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="150dp"
+        android:text="Grupo de Louvor e adoracao da Igreja"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="150dp"
+        android:text="Clique na imagem e saiba mais"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

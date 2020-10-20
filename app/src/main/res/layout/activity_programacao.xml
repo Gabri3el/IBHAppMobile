@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.ibh.Programacao">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:src="@drawable/banner_prog_684118"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CULTOS"
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Domingo: Acontecem as 18HR, Culto de adoração."
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Quarta: Acontecem as 20HR, Culto de oração."
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

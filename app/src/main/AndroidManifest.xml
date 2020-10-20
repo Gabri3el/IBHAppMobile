@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.ibh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_151848"
+        android:label="IBH"
+        android:roundIcon="@drawable/logo_151848"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="br.com.ibh.Programacao"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name="br.com.ibh.Localizacao" />
+        <activity android:name="br.com.ibh.Social" />
+        <activity android:name="br.com.ibh.Agenda" />
+        <activity android:name="br.com.ibh.Oferta" />
+        <activity android:name="br.com.ibh.Sabermais6" />
+        <activity android:name="br.com.ibh.Sabermais5" />
+        <activity android:name="br.com.ibh.Sabermais4" />
+        <activity android:name="br.com.ibh.Biblia" />
+        <activity android:name="br.com.ibh.Oracao" />
+        <activity android:name="br.com.ibh.Video" />
+        <activity android:name="br.com.ibh.Sabermais3" />
+        <activity android:name="br.com.ibh.Devocional" />
+        <activity android:name="br.com.ibh.Live" />
+        <activity android:name="br.com.ibh.Ministerio" />
+        <activity android:name="br.com.ibh.Sabermais2" />
+        <activity android:name="br.com.ibh.sabermais" />
+        <activity android:name="br.com.ibh.igreja" />
+        <activity android:name="br.com.ibh.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
